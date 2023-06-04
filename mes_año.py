@@ -1,0 +1,1 @@
+numero_input: int = int(input('Introduce un número del 1 al 12, para seleccionar la estación del año en el que estás: '))
