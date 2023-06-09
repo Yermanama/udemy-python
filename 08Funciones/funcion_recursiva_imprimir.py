@@ -16,9 +16,9 @@ Si se pasan valores negativos no imprime nada
 """
 
 def imprimir_numeros_recursivamente(numero : int):
-    while numero > 0:
+    if numero > 0:
         print(numero)
-        numero -= 1
+        imprimir_numeros_recursivamente(numero - 1)
 
 if __name__ == "__main__":
     imprimir_numeros_recursivamente(5)
