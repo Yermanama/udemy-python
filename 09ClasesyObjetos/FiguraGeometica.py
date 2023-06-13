@@ -1,4 +1,8 @@
-class FiguraGeometrica:
+#ABC = Abstract Base Class
+
+from abc import ABC, abstractmethod
+
+class FiguraGeometrica(ABC):
     def __init__(self, base, altura) -> None:
         self._base = base
         self._altura = altura
@@ -25,3 +29,7 @@ class FiguraGeometrica:
         if valor < 0:
             raise ValueError("La altura debe de ser mayor de 0.")
         self._altura = valor
+    
+    @abstractmethod
+    def calcular_area(self):
+        pass

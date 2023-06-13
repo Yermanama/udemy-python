@@ -1,5 +1,13 @@
 from Cuadrado import Cuadrado
 from Rectangulo import Rectangulo
+from FiguraGeometica import FiguraGeometrica
+
+
+"""
+figura_abstracta = FiguraGeometrica()
+Esta parte de aquí da error, porque la figura geométrica en estos momentos es una clase abstracta.
+Y no se puede instanciar un objeto de una clase abstracta
+"""
 
 cuadrado1 = Cuadrado(5, 'rojo')
 print(cuadrado1)
