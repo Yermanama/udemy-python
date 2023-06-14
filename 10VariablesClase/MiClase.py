@@ -21,3 +21,13 @@ print(mi_clase.variable_clase)
 mi_clase2 = MiClase("Este es el segundo objeto")
 print(mi_clase2.variable_instancia)
 print(mi_clase2.variable_clase)
+
+# También debemos de saber que podemos crear variables de clase al vuelo
+MiClase.nueva_variable = "Esta es una nueva variable"
+# Lo malo es que al definirla al vuelo, el IDE no lo reconoce
+# Pero podemos como antes acceder desde la clase o desde los objetos
+print("Variables al vuelo")
+print(MiClase.nueva_variable)
+print(mi_clase.nueva_variable)
+print(mi_clase2.nueva_variable)
+
