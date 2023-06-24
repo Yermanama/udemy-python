@@ -3,3 +3,288 @@
         Apellido -> Perez | Email -> Perez
         
 01:01:54 PM: DEBUG [Conexion.py:20] Conexión exitosa -> <connection object at 0x0000023689F26570; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:57:40 PM: DEBUG [Conexion.py:20] Conexión exitosa -> <connection object at 0x0000016C2566E570; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:57:40 PM: DEBUG [PersonaDao.py:33] Persona insertada: 
+        Id_persona -> 1 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+04:57:40 PM: DEBUG [PersonaDao.py:61] Persona insertada: 
+        Id_persona -> 1 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+04:59:32 PM: DEBUG [Conexion.py:20] Conexión exitosa -> <connection object at 0x000002EB39006570; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:59:32 PM: DEBUG [PersonaDao.py:33] Persona insertada: 
+        Id_persona -> 1 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+04:59:32 PM: DEBUG [PersonaDao.py:61] Persona insertada: 
+        Id_persona -> 1 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:02:38 PM: DEBUG [Conexion.py:20] Conexión exitosa -> <connection object at 0x000002048B756570; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:02:38 PM: DEBUG [PersonaDao.py:33] Persona insertada: 
+        Id_persona -> 1 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:02:38 PM: DEBUG [PersonaDao.py:61] Persona insertada: 
+        Id_persona -> 1 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 1 | Nombre -> Juan Carlos
+        Apellido -> Juarez | Email -> Juarez
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 2 | Nombre -> German
+        Apellido -> Martinez | Email -> Martinez
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 7 | Nombre -> Marcos
+        Apellido -> Vigo | Email -> Vigo
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 8 | Nombre -> Angel
+        Apellido -> Guevara | Email -> Guevara
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 9 | Nombre -> Maria
+        Apellido -> Gonzalez | Email -> Gonzalez
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 11 | Nombre -> Maria
+        Apellido -> Esparza | Email -> Esparza
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 12 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 13 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 14 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 15 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:02:38 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 16 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:02:38 PM: DEBUG [PersonaDao.py:42] Valores actualizados: 
+        Id_persona -> 1 | Nombre -> Pablo
+        Apellido -> Martinez | Email -> Martinez
+        
+05:02:38 PM: DEBUG [PersonaDao.py:72] Persona actualizada-> 
+        Id_persona -> 1 | Nombre -> Pablo
+        Apellido -> Martinez | Email -> Martinez
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 1 | Nombre -> Pablo
+        Apellido -> Martinez | Email -> Martinez
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 2 | Nombre -> German
+        Apellido -> Martinez | Email -> Martinez
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 7 | Nombre -> Marcos
+        Apellido -> Vigo | Email -> Vigo
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 8 | Nombre -> Angel
+        Apellido -> Guevara | Email -> Guevara
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 9 | Nombre -> Maria
+        Apellido -> Gonzalez | Email -> Gonzalez
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 11 | Nombre -> Maria
+        Apellido -> Esparza | Email -> Esparza
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 12 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 13 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 14 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 15 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:02:38 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 16 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [Conexion.py:20] Conexión exitosa -> <connection object at 0x000002B9655B6570; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:04:47 PM: DEBUG [PersonaDao.py:33] Persona insertada: 
+        Id_persona -> 1 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:61] Persona insertada: 
+        Id_persona -> 1 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 1 | Nombre -> Pablo
+        Apellido -> Martinez | Email -> Martinez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 2 | Nombre -> German
+        Apellido -> Martinez | Email -> Martinez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 7 | Nombre -> Marcos
+        Apellido -> Vigo | Email -> Vigo
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 8 | Nombre -> Angel
+        Apellido -> Guevara | Email -> Guevara
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 9 | Nombre -> Maria
+        Apellido -> Gonzalez | Email -> Gonzalez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 11 | Nombre -> Maria
+        Apellido -> Esparza | Email -> Esparza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 12 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 13 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 14 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 15 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 16 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:66] 
+        Id_persona -> 17 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:42] Valores actualizados: 
+        Id_persona -> 1 | Nombre -> Pablo
+        Apellido -> Martinez | Email -> Martinez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:72] Persona actualizada-> 
+        Id_persona -> 1 | Nombre -> Pablo
+        Apellido -> Martinez | Email -> Martinez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 1 | Nombre -> Pablo
+        Apellido -> Martinez | Email -> Martinez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 2 | Nombre -> German
+        Apellido -> Martinez | Email -> Martinez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 7 | Nombre -> Marcos
+        Apellido -> Vigo | Email -> Vigo
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 8 | Nombre -> Angel
+        Apellido -> Guevara | Email -> Guevara
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 9 | Nombre -> Maria
+        Apellido -> Gonzalez | Email -> Gonzalez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 11 | Nombre -> Maria
+        Apellido -> Esparza | Email -> Esparza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 12 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 13 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 14 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 15 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 16 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:77] 
+        Id_persona -> 17 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:51] Se ha eliminado a la persona -> 
+        Id_persona -> 1 | Nombre -> None
+        Apellido -> None | Email -> None
+        
+05:04:47 PM: DEBUG [PersonaDao.py:82] Persona eliminada -> 1
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 2 | Nombre -> German
+        Apellido -> Martinez | Email -> Martinez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 7 | Nombre -> Marcos
+        Apellido -> Vigo | Email -> Vigo
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 8 | Nombre -> Angel
+        Apellido -> Guevara | Email -> Guevara
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 9 | Nombre -> Maria
+        Apellido -> Gonzalez | Email -> Gonzalez
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 11 | Nombre -> Maria
+        Apellido -> Esparza | Email -> Esparza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 12 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 13 | Nombre -> Maria
+        Apellido -> Esperanza | Email -> Esperanza
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 14 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 15 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 16 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
+05:04:47 PM: DEBUG [PersonaDao.py:87] 
+        Id_persona -> 17 | Nombre -> Marcos
+        Apellido -> Soriano | Email -> Soriano
+        
