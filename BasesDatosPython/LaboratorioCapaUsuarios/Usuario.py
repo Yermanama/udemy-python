@@ -1,6 +1,6 @@
 class Usuario:
 
-    def __init__(self, id_usuario: int, username: str, password: str) -> None:
+    def __init__(self, id_usuario: int = None, username: str = None, password: str = None) -> None:
         self._id_usuario = id_usuario
         self._username = username
         self._password = password
