@@ -11,9 +11,16 @@ peticion = urllib.request.Request(
     }
 )
 
-with urlopen(peticion) as mensaje:
-    #contenido = mensaje.read()
-    contenido = mensaje.read().decode('utf-8')
+palabras_lista = []
 
-with open('nuevo_archivo.txt', 'w', encoding='utf-8') as archivo:
-    archivo.write(contenido)
+with urlopen(peticion) as mensaje:
+    for linea in mensaje:
+        palabras_por_linea = linea.decode('utf-8').split()
+        for palabra in palabras_por_linea:
+            palabras_lista.append(palabra)
+
+print(palabras_lista)
+
+
+'''with open('nuevo_archivo.txt', 'w', encoding='utf-8') as archivo:
+    archivo.write(palabras_lista)'''
